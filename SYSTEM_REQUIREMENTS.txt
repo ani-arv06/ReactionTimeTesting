@@ -1,0 +1,25 @@
+These are the system and software requirements required for reproducing the VMRT assessment paradigm.
+
+Hardware: 
+	Device: HP Laptop 14-dq4xxx
+	Processor: 11th Gen Intel(R) Core(TM) i5-1155G7 @ 2.50GHz (2.50 GHz)
+	Installed RAM: 12.0 GB (11.7 GB usable)
+	Graphics card: Intel(R) Iris(R) Xe Graphics (128 MB)
+	System type: 64-bit operating system, x64-based processor
+	
+	Display: BrightView IPS
+
+		Resolution: 1920 x 1080
+		Refresh rate: 60.01 Hz
+		Bit depth: 6-bit
+		Color: RGB, SDR
+
+
+Software: 
+	Edition: Windows 11 Home
+	Version: 25H2
+
+	PsychoPy version 2026.1.3, running "ReactionTime_Final.py"
+
+
+Mouse Specifications: Razer Deathadder Essential, with default settings (1000Hz polling rate)
