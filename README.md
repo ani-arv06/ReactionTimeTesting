@@ -1,11 +1,11 @@
-# Visuomotor Response Time (VMRT) Task (F1 Start-Light Paradigm)
+# Visuomotor Response Time (VMRT) Task (F1 Starting Lights)
 
 A PsychoPy visuomotor response time (VMRT) task modeled on a Formula 1 starting-light sequence.
 Participants watch five lights turn red one at a time, wait for all of them to go
 out, and left-click as fast as possible.
 
 This repository contains the task script and the system specifications used to
-reproduce the visuomotor response time (VMRT) assessment paradigm.
+reproduce the visuomotor response time (VMRT) assessment done.
 
 ## Files
 
@@ -14,7 +14,6 @@ reproduce the visuomotor response time (VMRT) assessment paradigm.
 | `ReactionTime_Final.py` | The task (PsychoPy 2026.1.3, pyglet window) |
 | `SYSTEM_REQUIREMENTS.txt` | Hardware, display, OS, and mouse specs of the reference setup |
 | `requirements.txt` | Python dependency (`psychopy==2026.1.3`) |
-| `LICENSE` | MIT license |
 
 ## Setup
 
@@ -89,8 +88,7 @@ Each trial is written immediately, so an ESC exit preserves completed trials.
   measured at startup.
 - RT is taken from mouse event timestamps relative to the lights-out flip
   (`win.callOnFlip(mouse.clickReset)`).
-- Hardware and display latency are **not calibrated**. Absolute RTs include
-  display, mouse, and OS latency, so use the same setup across participants and
+- Absolute RTs include display, mouse, and OS latency, so use the same setup across participants and
   see `SYSTEM_REQUIREMENTS.txt` for the reference configuration.
 
 ## Reference setup
@@ -99,12 +97,4 @@ HP Laptop 14-dq4xxx, Intel Core i5-1155G7, 12 GB RAM, Intel Iris Xe graphics,
 1920x1080 60 Hz display, Windows 11 Home 25H2, Razer DeathAdder Essential mouse
 (1000 Hz polling). Full details are in `SYSTEM_REQUIREMENTS.txt`.
 
-## Citation
 
-```
-Your Name (2026). Visuomotor Response Time (VMRT) Task. https://github.com/your-username/vmrt-reaction-time
-```
-
-## License
-
-MIT, see [LICENSE](LICENSE).
