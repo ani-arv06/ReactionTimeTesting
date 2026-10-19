@@ -21,7 +21,7 @@ if not participant:
     raise ValueError('Participant ID cannot be empty')
 safe_id = re.sub(r'[^A-Za-z0-9_-]', '_', participant)
 
-TARGET_VALID = 10
+TARGET_VALID = 15
 MIN_DELAY = 1.0
 MAX_DELAY = 5.0
 MIN_RT = 0.130
