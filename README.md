@@ -47,7 +47,7 @@ Each trial:
 5. The participant left-clicks as fast as possible.
 
 Trials are separated by a 5 s inter-trial interval. The session ends after
-**10 valid responses**.
+**15 valid responses**.
 
 ### Response classification
 
