@@ -59,7 +59,7 @@ Trials are separated by a 5 s inter-trial interval. The session ends after
 | `FalseStart` | Mouse button down before lights-out |
 | `NoResponse` | No click within the response window |
 
-Only `Valid` trials count toward the 7 required.
+Only `Valid` trials count toward the 15 required.
 
 ## Output
 
