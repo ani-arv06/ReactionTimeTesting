@@ -191,7 +191,7 @@ try:
               'Wait until all five red lights go out.\n'
               'LEFT CLICK as fast as possible.\n\n'
               'Do not click before lights-out.\n'
-              'The test ends after 7 valid responses.\n\n'
+              'The test ends after 15 valid responses.\n\n'
               'Press S to begin.')
     event.clearEvents()
     while not event.getKeys(keyList=['s']):
